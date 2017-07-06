@@ -3,8 +3,7 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A:
-undefined
+// A:undefined
 
 
 // 2.
@@ -31,15 +30,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A:
-40
+// A:40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
-45
+// A: 45
 
 
 // 7.
@@ -52,11 +49,12 @@ let today = 2017;
 let timAge = givenName + 'is ' + (today - born) + ' years' + ' old'
 
 
+
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-let yourName="Nathan";
-let instructorName= "Russell";
+let yourName="David";
+let instructorName= "Jack";
 
 
 // 9.
@@ -77,7 +75,7 @@ let myNumber=1;
 let myString="wats up";
 let myBoolean=true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined=" ";
+let myUndefined= undefined;
 // A:
 
 
@@ -122,18 +120,18 @@ true
 // 17.
 let d = (null == false);
 // A.
-true
+false
 
 // 18.
 let e = (NaN == null);
 // A.
-true
+false
 
 
 // 19.
 let f = (NaN == NaN);
 // A.
-true
+false
 
 
 // 20.
@@ -212,7 +210,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 28.
@@ -221,7 +219,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A: False
+// A: true
 
 // 29.
 if(new Date()){
@@ -229,7 +227,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A: false
+// A: true
 
 // 30.
 // Link this file to the sibling `index.html` document, open the file in your browser and make sure there are no errors in your console.
